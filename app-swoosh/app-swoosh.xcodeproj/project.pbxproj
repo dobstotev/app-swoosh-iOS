@@ -13,6 +13,7 @@
 		1370E873218C534C00AF19B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1370E872218C534C00AF19B2 /* Assets.xcassets */; };
 		1370E876218C534C00AF19B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1370E874218C534C00AF19B2 /* LaunchScreen.storyboard */; };
 		1370E87F218C6D8400AF19B2 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1370E87E218C6D8400AF19B2 /* BorderButton.swift */; };
+		1370E881218C8FD100AF19B2 /* darkGreyButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1370E880218C8FD100AF19B2 /* darkGreyButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1370E875218C534C00AF19B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1370E877218C534C00AF19B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1370E87E218C6D8400AF19B2 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		1370E880218C8FD100AF19B2 /* darkGreyButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkGreyButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				1370E87E218C6D8400AF19B2 /* BorderButton.swift */,
+				1370E880218C8FD100AF19B2 /* darkGreyButtons.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1370E881218C8FD100AF19B2 /* darkGreyButtons.swift in Sources */,
 				1370E86E218C534B00AF19B2 /* ViewController.swift in Sources */,
 				1370E86C218C534B00AF19B2 /* AppDelegate.swift in Sources */,
 				1370E87F218C6D8400AF19B2 /* BorderButton.swift in Sources */,
